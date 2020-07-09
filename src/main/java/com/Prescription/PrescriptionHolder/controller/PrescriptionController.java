@@ -22,7 +22,7 @@ import com.mongodb.client.result.UpdateResult;
 import io.jsonwebtoken.Claims;
 
 @RestController
-@CrossOrigin(origins="*")
+@CrossOrigin(origins="https://prescriptionholder.herokuapp.com")
 
 public class PrescriptionController {
 	@Autowired

@@ -19,7 +19,7 @@ import com.Prescription.PrescriptionHolder.service.UserService;
 import io.jsonwebtoken.Claims;
 
 @RestController
-@CrossOrigin(origins="*")
+@CrossOrigin(origins="https://prescriptionholder.herokuapp.com")
 public class UserController {
 	@Autowired
 	UserService userService;
