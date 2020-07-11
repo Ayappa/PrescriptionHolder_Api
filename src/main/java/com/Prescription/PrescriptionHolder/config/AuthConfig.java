@@ -42,7 +42,7 @@ public class AuthConfig extends WebSecurityConfigurerAdapter   implements WebMvc
 		.and()
 		.formLogin().disable()
 		.authorizeRequests()
-		.antMatchers("/login").permitAll()
+		.antMatchers("/login","/registerUser","/updatePassword").permitAll()
 		.anyRequest().authenticated() .and().addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
 	}
   
