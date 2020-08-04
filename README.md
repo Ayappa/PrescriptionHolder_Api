@@ -1,4 +1,10 @@
 # PrescriptionHolder_Api
+## Spring JPA - for creating tables in sql and queries over dataBase extending Repository or query Annotations.
+## Spring Security - Configuring Spring Security Configuration for authenticating and authorizing users.
+## Json Web Token - For session and authenticating and authorizing users.
+ ## Spring Filters -  For redirecting users to check validity of tokens.
+## Spring MongoDb - for data storage.
+
 ## PrescriptionHolder to add , update , create ,delete and user management. Using Spring boot with spring Security , Mongo Db , JWT , and custom filters for security.
 
 # Register a user , by passing body with required information and return a JWT token or error if duplicate exists.
